@@ -11,7 +11,9 @@ public class Activator implements BundleActivator {
 	 */
 	public void start(BundleContext context) throws Exception {
 		System.out.println("Bundle ready for action: "+context.getBundle().getSymbolicName());
+	
 	}
+	
 	
 	/*
 	 * (non-Javadoc)
